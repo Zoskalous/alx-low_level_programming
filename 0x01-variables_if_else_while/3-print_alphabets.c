@@ -10,11 +10,14 @@
 int main(void)
 {
 char abc = 'a';
-while (abc <= 'z')
+char ABC = 'A';
+while (ABC <= 'Z', abc <= 'z')
 {
 putchar(abc);
+putchar(ABC);
 putchar('\n');
 abc++;
+ABC++;
 }
 return (0);
 }
