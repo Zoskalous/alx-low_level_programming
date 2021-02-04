@@ -10,14 +10,17 @@
 int main(void)
 {
 char abc = 'a';
-char ABC = 'A';
-while (ABC <= 'Z', abc <= 'z')
+while (abc <= 'z')
 {
 putchar(abc);
-putchar(ABC);
-putchar('\n');
 abc++;
+}
+char ABC = 'A';
+while (ABC <= 'Z')
+{
+putchar(ABC);
 ABC++;
 }
+putchar('\n');
 return (0);
 }

@@ -13,8 +13,8 @@ char abc = 'a';
 while (abc <= 'z')
 {
 putchar(abc);
-putchar('\n');
 abc++;
 }
+putchar('\n');
 return (0);
 }
