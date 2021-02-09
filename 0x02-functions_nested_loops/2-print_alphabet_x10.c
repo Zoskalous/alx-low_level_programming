@@ -14,7 +14,7 @@ for (i = 0; i < 10; i++)
 char alp = 'a';
 while (alp <= 'z')
 {
-_putchar (alp));
+_putchar (alp);
 alp++;
 }
 }
